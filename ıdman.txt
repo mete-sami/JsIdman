@@ -1,0 +1,60 @@
+<!-- 1) Ekrana bir input, bir buton bir tane p elementi koy. Butona tıkladığında inputtan aldığı değeri büyük harfle p içerisine yazdırsın. -->
+<!-- 2) Ekrana bir buton bir img koy. Img e herhangi bir resim ver. Butona tıkladığında img boyutu 200*200 olsun -->
+<!-- 3) Ekrana bir buton 3 tane span koy. Butona tıkladığında 3 spanın da içine “Siemens” yazsın -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- <div><input type="text" id="inputText"></div>
+        soru1
+    <div>
+        <p id="p1">P tagı</p>
+    </div>
+    <div>
+        <button onclick="upper()">Click me</button>
+    </div>
+     -->
+     <!-- <img src="twitter.jpg" alt="" id="img">
+     <button onclick="smallimg()"> Click me !  </button>
+     
+
+
+
+    -->
+    <!-- // function upper(){
+        // soru1
+    //     let text = document.getElementById("inputText").value.toUpperCase();
+    //     let a = document.getElementById("p1");
+    //     a.innerHTML =text;
+    
+    // }
+//     function smallimg(){
+// var img = document.getElementById("img");
+// img.style.width=200 +  "px";
+// img.style.height=200 +"px";
+
+//     } -->
+
+<!-- <span name="span"></span>
+<span name="span"></span>
+<span name="span"></span>
+<button onclick="changeF()">Click me!</button>
+
+</body>
+<script>
+    function changeF(){
+       
+       var spann = document.getElementsByName("span");
+       spann.forEach((span) => {
+           span.innerText ="Siemens"
+       })
+    }; -->
+
+    
+</script>
+</html>
